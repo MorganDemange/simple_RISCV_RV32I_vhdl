@@ -23,7 +23,7 @@ The CPU has been tested in simulation:
 Synthesis has not been tested, some adjustments may be required to make it synthesizable.
 
 
-A startup file, a linker script and a Makefile are provided to compile code that can be run on this CPU. You can write your own code in the main.c file.
+A startup file, a linker script and a Makefile are provided to compile code that can be run on this CPU. You can write your own code in the `main.c` file.
 To use this code in simulation, set your toolchain path in the Makefile and compile:
 ```
 make
